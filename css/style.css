@@ -151,9 +151,11 @@ input {
 }
 
 .link_Map {
+    align-content: center;
     font-family: 'Acme', sans-serif;
     font-size: small;
-    background-color: black;    
+    color: orangered;
+    background-color: midnightblue;    
 }
 
 .maps {
