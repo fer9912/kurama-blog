@@ -9,6 +9,11 @@ a:hover:active {
     left: 2px;
 }
 
+@keyframes changeColor {
+    from { color: black; }
+    to { color:orangered; } 
+
+
 .nav__responsive-ul{
 	display: none;
 }
@@ -61,11 +66,6 @@ h2 {
     color: red;
     font-family: 'Acme', sans-serif;
     font-size: 1em;
-}
-
-@keyframes changeColor {
-    from { color: black; }
-    to { color:orangered; } 
 }
 
 body {
@@ -125,6 +125,10 @@ footer a:hover {
     color:orange;
     background-color:black;
     border: none;
+}
+
+footer i{
+    size: 20px;
 }
 
 form {
