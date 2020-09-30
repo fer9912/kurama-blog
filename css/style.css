@@ -236,7 +236,8 @@ input {
     width: 200px;
 }
 
-.mapas{
+.mapas p{
+    background-color: rgba(198, 184, 185, 0.5); 
     font-family: 'Acme', sans-serif;
     font-size: 20px;
 }
