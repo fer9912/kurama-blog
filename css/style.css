@@ -150,12 +150,13 @@ input {
     min-height: 2rem;
 }
 
-.linkMapa {
+.link_Map {
+    font-family: 'Acme', sans-serif;
     font-size: small;
     background-color: black;    
 }
 
-.mapas {
+.maps {
     display: grid;
     grid-template-areas: "i i i i";
     justify-content: center;
@@ -235,21 +236,26 @@ input {
     width: 200px;
 }
 
+.mapas{
+    font-family: 'Acme', sans-serif;
+}
+
 #portada  {
     height: 300px;
     margin-bottom: 100px;
 }
+
 
 @media screen and (max-width: 1700px) {
     .fotosClientes {
         grid-template-areas: "img img" "img img" "img img";
     }
 
-    .mapas {
+    .maps {
         grid-template-areas: "i i" "i i";
     }
 
-    .contenedor {
+    .container {
         grid-template-columns: 45% 45%;
     }
 	
@@ -293,19 +299,8 @@ input {
 	
 }
 
-
 @media screen and (max-width: 1200px) {
-    .fotoSola {
-        top: 20rem;
-	}
-	
-}
-
-@media screen and (max-width: 1200px) {
-    .fotosClientes {
-        grid-template-areas: "img";
-    }
-
+  
     body {
         margin: 0px;
     }
@@ -316,11 +311,11 @@ input {
         grid-gap: 5px;
     }
 
-    .mapas {
+    .maps {
         grid-template-areas: "i";
     }
 
-    .contenedor {
+    .container {
         grid-template-columns: 90%;
     }
 
@@ -386,16 +381,11 @@ input {
   .nav__responsive-ul:hover > .nav__li-container{
    top: -15px;   
   }
-	
-	.fotoSola {
-        position: static;
-    }
-
     form {
         max-width: 100%;
     }
 
-    .linkMapa {
+    .link_Maps {
         display: block;
     }
 }
