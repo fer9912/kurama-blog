@@ -149,7 +149,11 @@ input {
     border-radius: 5px;
     min-height: 2rem;
 }
-
+textarea{
+    margin: 5px;
+    border-radius: 5px;
+    min-height: 2rem;
+}
 .link_Map {
     align-content: center;
     font-family: 'Acme', sans-serif;
