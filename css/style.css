@@ -153,9 +153,7 @@ input {
 .link_Map {
     align-content: center;
     font-family: 'Acme', sans-serif;
-    font-size: small;
-    color: orangered;
-    background-color: midnightblue;    
+    color: orangered; 
 }
 
 .maps {
@@ -238,9 +236,11 @@ input {
     width: 200px;
 }
 
-.mapas{
+.mapas p a{
     font-family: 'Acme', sans-serif;
+    font-size: 20px;
 }
+
 
 #portada  {
     height: 300px;
