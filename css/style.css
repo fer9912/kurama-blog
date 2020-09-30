@@ -12,7 +12,7 @@ a:hover:active {
 @keyframes changeColor {
     from { color: black; }
     to { color:orangered; } 
-
+}
 
 .nav__responsive-ul{
 	display: none;
