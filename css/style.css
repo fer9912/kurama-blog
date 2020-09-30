@@ -18,6 +18,10 @@ a:hover:active {
 	display: none;
 }
 
+.nav__responsive-li{
+    font-family: 'Acme', sans-serif;
+}
+
 ul{
     list-style: none;
 }
