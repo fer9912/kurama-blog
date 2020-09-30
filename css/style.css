@@ -128,7 +128,7 @@ footer a:hover {
 }
 
 footer i{
-    size: 20px;
+    font-size: 40px;
 }
 
 form {
@@ -170,7 +170,8 @@ input {
 }
 
 .item {
-	border: black solid 1px;
+    border: black solid 1px;
+    border-style: inset;
 	border-radius: 10px;
 	text-align: center;
 	width: fit-content;
