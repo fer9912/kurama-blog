@@ -236,7 +236,11 @@ input {
     width: 200px;
 }
 
-.mapas p a{
+.mapas{
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+.mapas a{
     font-family: 'Acme', sans-serif;
     font-size: 20px;
 }
